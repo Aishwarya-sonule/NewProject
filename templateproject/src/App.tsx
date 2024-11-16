@@ -1,6 +1,17 @@
+import Footer from "./components/pages/Footer";
+import Header from "./components/pages/Header";
+import AboutUs from "./Page/About_Us/AboutUs";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
 const App = ()=> {
   return (
-    <h1 className="text-green-800 text-center"> Hello World! </h1>
+    <Router>
+       <Header/>
+       <Routes>
+          <Route path="/" element={<AboutUs/>}> </Route>
+          </Routes>
+    <Footer/>
+    </Router>
   )
 }
 
