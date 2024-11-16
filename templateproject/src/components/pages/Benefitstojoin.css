@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    height: 729px;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+.cardblock2, .cardblock3 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.card-image {
+    height: 150px;
+}
+
+/* ..............Responsivness Style........ */
+
+@media screen and (max-width: 600px) {
+    .card3 {
+        display: inline-block;
+        width: 100%;
+        background-color: blanchedalmond;
+    }
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+.heading {
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    width: 900px;
+    line-height: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+}
+
+.btns {
+    width: 900px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    gap: 1.5rem;
+} 
+.btns button {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+.reviews {
+    width: 700px;
+    height: 160px;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+    justify-content: center;
+}
+.review-first, .review-second {
+    width: 225px;
+    height: 150px;
+    padding: 20px;
+}
+.review-text {
+    color: #6B7280;
+    text-align: start;
+}
+.review-info  {
+    font-size: 30px;
+    font-weight: 600;
+}
+/* section 2 Begins Here/....... */
+.second {
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+}
+.second-info {
+    width: 600px;
+    height: 520px;
+    margin-left: 8%;
+}
+.info-heading {
+    font-size: 48px;
+    line-height: 2.7rem;
+    display: inline;
+}
+.info-text {
+    font-size: 20px;
+    width: 490px;
+}
+.aboutus-details span {
+    font-size: 48px;
+    color: #7e22ce;
+    font-weight: 600;
+}
+.aboutus-details p {
+    font-size: 18px;
+}
+
+
+/* ...............Responsivness Style............ */
+
+@media screen and (max-width: 650px) {
+    .heading {
+        font-size: 40px;
+    }
+    .reviews {
+        display: inline-block;
+        border-right: none;
+    }
+    .second {
+        display: inline-block;
+        margin: auto;
+    }
+    
+}

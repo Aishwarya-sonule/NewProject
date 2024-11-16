@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    height: 810px;
+}
+.first {
+    width: 500px;
+}
+.body-title {
+    font-size: 20px;
+    color: #3e3b3b99;
+    font-family: Inter, sans-serif;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+.body-heading {
+    font-family: Inter, sans-serif;
+    margin: 35px;
+}
+.first-text-heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.first-text-para {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Inter, sans-serif;
+    margin-bottom: 18px;
+}
+.ranveer-sir-img {
+     height: 350px;
+     width: 208.81px;
+}
+.first-text-link {
+    color: rgb(74, 74, 232);
+    text-decoration: underline;
+    margin-left: 20px;
+}
